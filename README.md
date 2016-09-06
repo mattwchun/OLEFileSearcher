@@ -9,3 +9,5 @@ There are 2 ways to use this OLE File Searcher
 Requires the following modules (Until I add a setup.py for distutils):
 1) olefile
 2) binascii
+
+Disclaimer: Written in ~2 hours. Any bugs you find, create a new issue.
