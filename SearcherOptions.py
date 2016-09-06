@@ -1,5 +1,5 @@
-from Tkinter import Tk
-from tkFileDialog import askopenfilename
+#from Tkinter import Tk
+#from tkFileDialog import askopenfilename
 import olefile
 import SearcherModel
 
