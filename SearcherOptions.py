@@ -6,11 +6,11 @@ import SearcherModel
 ole = None
 
 def NewFile():
-    Tk().withdraw()
-    filename = askopenfilename()
+    #Tk().withdraw()
+    #filename = askopenfilename()
+    filename = raw_input("Enter valid relative path to OLE file: ")
+    global ole
     ole = olefile.OleFileIO(filename)
-    print filename
-    print 'NewFile()'
     return True
 
 def Search():
@@ -19,9 +19,7 @@ def Search():
     else:
         value = raw_input("Enter search value: ")
         SearcherModel.search(ole, value)
-    print 'Search()'
     return True
 
 def Exit():
-    print 'Exit()'
     return False
